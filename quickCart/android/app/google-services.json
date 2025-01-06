@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294368881681",
+    "project_id": "cartsup-dca38",
+    "storage_bucket": "cartsup-dca38.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294368881681:android:18db6b4724bf1195d095b0",
+        "android_client_info": {
+          "package_name": "com.example.quickcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294368881681-cdfi0vp51n575nmlvbtfnbb276ostmdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXmDZWnYTLqEAupa5L-EhGoDX1mfd7420"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294368881681-cdfi0vp51n575nmlvbtfnbb276ostmdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

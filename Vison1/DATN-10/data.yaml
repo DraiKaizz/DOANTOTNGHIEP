@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['banh_toppo_socola', 'coca_cola', 'khan_giay']
+
+roboflow:
+  workspace: draikaiz
+  project: datn-dirag
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/draikaiz/datn-dirag/dataset/10
