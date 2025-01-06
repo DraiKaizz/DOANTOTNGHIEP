@@ -12,8 +12,6 @@
 /* 2. Cấu hình Firebase */
 #define API_KEY "AIzaSyCXmDZWnYTLqEAupa5L-EhGoDX1mfd7420"
 #define FIREBASE_PROJECT_ID "cartsup-dca38"
-#define USER_EMAIL "hao123@gmail.com"
-#define USER_PASSWORD "1234567"
 
 #define SS_PIN 21
 #define RST_PIN 22
@@ -54,8 +52,7 @@ void setup() {
   // Cấu hình Firebase
   Serial.printf("Firebase Client v%s\n\n", FIREBASE_CLIENT_VERSION);
   config.api_key = API_KEY;
-  auth.user.email = USER_EMAIL;
-  auth.user.password = USER_PASSWORD;
+
 
   Firebase.begin(&config, &auth);
   Firebase.reconnectNetwork(true);
