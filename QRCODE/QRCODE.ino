@@ -10,8 +10,7 @@
 /* 2. Cấu hình Firebase */
 #define API_KEY "AIzaSyCXmDZWnYTLqEAupa5L-EhGoDX1mfd7420"
 #define FIREBASE_PROJECT_ID "cartsup-dca38"
-#define USER_EMAIL "hao123@gmail.com"
-#define USER_PASSWORD "1234567"
+
 
 // Định nghĩa đối tượng Firebase
 FirebaseData fbdo;
@@ -253,8 +252,7 @@ void setup() {
   Serial.printf("Firebase Client v%s\n\n", FIREBASE_CLIENT_VERSION);
 
   config.api_key = API_KEY;
-  auth.user.email = USER_EMAIL;
-  auth.user.password = USER_PASSWORD;
+
 
   // Bắt đầu Firebase
   Firebase.begin(&config, &auth);
