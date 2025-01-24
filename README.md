@@ -31,3 +31,9 @@ Mô tả:
 
 Mục tiêu
    Mục tiêu của đề tài là phát triển một ứng dụng tích hợp nhiều chức năng, bao gồm quét mã QR, xử lý hình ảnh, quản lý giỏ hàng, và cung cấp giao diện người dùng thân thiện. Dự án không chỉ tập trung vào phần mềm mà còn tích hợp phần cứng, như camera ESP32, để thu thập và xử lý dữ liệu hình ảnh, kết hợp module qrcode để đọc mã vạch quét được để xử lý dữ liệu giỏ hàng tạm thời. Điều này nhằm cải thiện trải nghiệm người dùng trong lĩnh vực thương mại điện tử hoặc ứng dụng di động, đồng thời tạo ra một hệ thống tự động hóa hiệu quả cho việc nhận diện sản phẩm và quản lý thông tin kết hợp sử dụng AI để phân tích hình ảnh và chống gian lận trong việc mua sắm.
+
+
+
+Các Giao Diện Chính Trong Ứng Dụng Di Động:
+
+<img src="https://github.com/user-attachments/assets/30f4c2f7-0e29-41db-bae7-95991300cab4" alt="ALI GIF" width="350">
