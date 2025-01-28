@@ -1,39 +1,34 @@
-Mô tả Đề tài
+Project Title: Design of a Convenient Supermarket Shopping Cart
 
-Tên Đề tài: Thiết kế xe đẩy hàng siêu thị tiện lợi
+Description
+This project combines software development, application design, and hardware integration. The key components are organized into various directories, as described below:
 
-Mô tả:
-Đề tài này có thể là một dự án phát triển phần mềm, ứng dụng và phần cứng, với các thành phần chính được tổ chức trong các thư mục khác nhau. Dưới đây là một số thành phần có thể có trong dự án:
+1 QR Code:
+This module contains the source code for scanning and reading codes from the QR code module, sending data to the ESP32 for processing, and updating the shopping cart information to Firebase Firestore. It includes functions to retrieve data from Firestore and process product information, creating an efficient cart management system.
 
-1. QR Code:
- Mã nguồn này quét và đọc CODE từ module QRCODE, sau đó gởi vào ESP32 để xử lý dữ liệu và cập nhật thông tin vào giỏ hàng tạm thời lên Firebase Firestore. Nó sử dụng các hàm để lấy dữ liệu từ Firestore và xử lý thông tin sản phẩm, giúp tạo ra một hệ thống quản lý giỏ hàng hiệu quả.
+2 ReadNUID:
+This code enables the ESP32 to scan RFID cards, update their status, and manage payment records on Firebase Firestore. It incorporates functions to fetch and process card information, facilitating an effective card management system.
 
-3. ReadNUID:
-  Mã nguồn này cho phép ESP32 quét thẻ RFID, cập nhật trạng thái và thanh toán lên Firebase Firestore, và quản lý trạng thái của thẻ. Nó sử dụng các hàm để lấy dữ liệu từ Firestore và xử lý thông tin thẻ, giúp tạo ra một hệ thống quản lý thẻ hiệu quả.
+3 Vison1:
+This directory contains the source code for an application or module related to computer vision, potentially used for recognizing images or videos from the ESP32 camera.
 
-4. Vison1:
-   Thư mục chứa mã nguồn cho một ứng dụng hoặc một module liên quan đến thị giác máy tính (computer vision), có thể sử dụng để nhận diện hình ảnh từ video của esp32 camera.
+4 Camera:
+This module allows the ESP32 to launch an HTTP camera, providing a web interface for users to view video streams. It uses functions to configure Wi-Fi and the camera, creating an accessible remote video streaming system.
 
-5. Camera:
-  Mã nguồn này cho phép ESP32 khởi động một camera HTTP và cung cấp giao diện web để người dùng có thể xem video từ camera. Nó sử dụng các hàm để cấu hình Wi-Fi và camera, tạo ra một hệ thống dễ dàng để truy cập video từ xa.
+5 QuickCart:
+The QuickCart application serves as an e-commerce platform, enabling users to efficiently manage and purchase products. The app offers key functionalities such as:
 
-6. QuickCart:
-  Ứng dụng quickCart là một nền tảng thương mại điện tử cho phép người dùng dễ dàng quản lý và mua sắm sản phẩm. Ứng dụng cung cấp các chức năng chính như:
-    1. Xác thực Người dùng: Cho phép người dùng đăng ký, đăng nhập và quản lý tài khoản cá nhân thông qua các màn hình.
-    2. Quản lý Giỏ hàng: Người dùng xem danh sách sản phẩm.
-    3. Quét Mã QR: Ứng dụng hỗ trợ quét mã QR để thanh toán hóa đơn và đăng nhập tài khoản người dùng, giúp tiết kiệm thời gian cho người dùng.
-    4. Lịch sử Mua sắm: Người dùng có thể xem lịch sử giao dịch và các đơn hàng đã thực hiện.
-    5. Cá nhân hóa: Ứng dụng quản lý hồ sơ.
-    6. Cài đặt: Người dùng có thể điều chỉnh các cài đặt ứng dụng.
-       
-7. UI:
-  Thư mục này có thể chứa mã nguồn cho giao diện người dùng (UI), bao gồm các thành phần giao diện và trải nghiệm người dùng. Sử dụng Waveshara ESP32S3 LCD 4.3IN.
+ - User Authentication: Allows users to register, log in, and manage personal accounts through intuitive interfaces.
+ - Cart Management: Enables users to view product lists and manage their cart.
+ - QR Code Scanning: Facilitates QR code scanning for bill payments and user login, saving time.
+ - Shopping History: Users can view transaction history and past orders.
+ - Personalization: Manages user profiles for a tailored experience.
+ - Settings: Allows users to adjust application preferences.
+This component leverages the Waveshare ESP32-S3 4.3-inch LCD for its user interface (UI).
 
-Mục tiêu
-   Mục tiêu của đề tài là phát triển một ứng dụng tích hợp nhiều chức năng, bao gồm quét mã QR, xử lý hình ảnh, quản lý giỏ hàng, và cung cấp giao diện người dùng thân thiện. Dự án không chỉ tập trung vào phần mềm mà còn tích hợp phần cứng, như camera ESP32, để thu thập và xử lý dữ liệu hình ảnh, kết hợp module qrcode để đọc mã vạch quét được để xử lý dữ liệu giỏ hàng tạm thời. Điều này nhằm cải thiện trải nghiệm người dùng trong lĩnh vực thương mại điện tử hoặc ứng dụng di động, đồng thời tạo ra một hệ thống tự động hóa hiệu quả cho việc nhận diện sản phẩm và quản lý thông tin kết hợp sử dụng AI để phân tích hình ảnh và chống gian lận trong việc mua sắm.
+6 UI
+This directory contains source code for the user interface, including UI components and elements for enhancing user experience.
 
-
-
-Các Giao Diện Chính Trong Ứng Dụng Di Động:
+Key Interfaces in the Mobile Application:
 
 <img src="https://github.com/user-attachments/assets/30f4c2f7-0e29-41db-bae7-95991300cab4" alt="ALI GIF" width="350">
