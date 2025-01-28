@@ -1,6 +1,6 @@
 Project Title: Design of a Convenient Supermarket Shopping Cart
 
-Description
+**Description**
 This project combines software development, application design, and hardware integration. The key components are organized into various directories, as described below:
 
 1 QR Code:
@@ -26,7 +26,7 @@ The QuickCart application serves as an e-commerce platform, enabling users to ef
  - Settings: Allows users to adjust application preferences.
 This component leverages the Waveshare ESP32-S3 4.3-inch LCD for its user interface (UI).
 
-6 UI
+6 UI:
 This directory contains source code for the user interface, including UI components and elements for enhancing user experience.
 
 Key Interfaces in the Mobile Application:
